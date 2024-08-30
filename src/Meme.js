@@ -63,7 +63,7 @@ export default function Memes(){
                     </div>
                 <div>
                 <button type="button"   onClick={getimage}  className="btn btn-dark">Get a new Meme Image</button>
-                <div className="imagestyle" onClick={getimage}><img src={meme.randomurl} />
+                <div className="imagestyle" onClick={getimage}><img src={meme.randomurl} alt="imagememe" />
                 <h2 className="meme--text top">
                 {meme.toptext}</h2>
                 <h2 className="meme--text bottom">
