@@ -1,13 +1,120 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+nav{
+    height:80px;
+    display:flex;
+    background-color: black;
+    padding:20px 30px;
+    box-shadow: 8px 8px 10px rgb(172, 162, 162);
+ }
+ nav>h1{
+  padding-left:10px;
+  font-size: 1.6rem;
+  text-shadow: 1px 1px 20px white;
+  color:white;
+ }
+.Nav-bar-logo{
+  height:50px;
+  align-self: center;
+  max-width: 200px;
+}
+
+.abc{
+  margin-top: 30px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+}
+.abcd{
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.imagestyle{
+  position: relative;
+}
+.imagestyle>img{
+  max-width: 100%;
+    border-radius: 3px;
+  
+}
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.top {
+  top: 0;
+}
+
+@media (max-width:400px){
+  nav>h1{
+    font-size:18px;
+    padding-left:1px;
+    align-self: center;
+    
+  }
+  nav{
+    padding:5px 6px;
+    width:1000px;
+  }
+  .imagestyle>img{
+    max-width: 100%;
+    border-radius: 3px;
+    
+  }
+  .abc{
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .form{
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
 }
